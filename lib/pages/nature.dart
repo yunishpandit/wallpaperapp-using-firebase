@@ -17,6 +17,7 @@ class _NatureState extends State<Nature> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+         elevation: 0.0,
         backgroundColor: Colors.white,
       iconTheme: IconThemeData(color: Colors.black),
         title: Text("Nature",style: TextStyle(color: Colors.black),),

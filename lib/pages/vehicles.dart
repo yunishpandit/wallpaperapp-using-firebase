@@ -18,7 +18,7 @@ class _VehiclesState extends State<Vehicles> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0.0,
-        
+        iconTheme: IconThemeData(color: Colors.black),
         title: Text("Vehicles", style: TextStyle(color: Colors.black),),
         backgroundColor: Colors.white,
       ),
